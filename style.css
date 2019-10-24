@@ -27,15 +27,6 @@ body img{
     width: auto;
 }
 
-/* .body h1{
-    color: black;
-    text-align: center;
-    padding-top: 20%;
-    font-size: 1800%;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .3rem;
-} */
-
 .body h5{
     color: black;
     text-align: center;
@@ -43,8 +34,6 @@ body img{
     font-size: 150%;
     line-height: 200%;
 }
-
-
 
 /* FOOTER////////////////////////////////////////////////////////////// */
 
@@ -67,12 +56,6 @@ body img{
     letter-spacing: .1rem;
     font-weight: 600;  
 }
-
-/* .page-footer ul li a:hover {
-    color: rgb(166,166,166)!important;
-    font-weight: bold;
-    text-decoration: none;
-} */
 
 .hr1{
     border: 1px solid black;
