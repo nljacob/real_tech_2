@@ -9,47 +9,42 @@ body, html {
 
 /* NAVBAR////////////////////////////////////////////////////////////// */
 
-.navbar ul li {
-    margin: auto auto auto 15%;
+nav .nav-link {
+    letter-spacing: .15rem;
+    color: black;
 }
 
-.navbar ul li a {
-    color: rgb(154,0,51) !important;
-    font-size: 105%;
-    letter-spacing: .2rem;
-    font-weight: bold;
-}
-
-.navbar ul li a:hover {
-    color: rgb(166,166,166)!important;
+.navbar-brand img{
+    height: 50%;
+    width: auto;
 }
 
 /* HOME-PAGE////////////////////////////////////////////////////////////// */
 
-.background-image {
-    background-image: url("assets/home_page.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body img{
+    padding: 20% 0 0 5%;
+    height: 135%;
+    width: auto;
 }
 
-.background-image h1{
-    color: white;
+/* .body h1{
+    color: black;
     text-align: center;
-    padding-top: 10%;
-    font-size: 360%;
+    padding-top: 20%;
+    font-size: 1800%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
-}
+} */
 
-.background-image h5{
-    color: white;
+.body h5{
+    color: black;
     text-align: center;
-    padding: 3% 22% 0 22%;
-    font-size: 120%;
+    padding: 22% 22% 0 22%;
+    font-size: 150%;
     line-height: 200%;
 }
+
+
 
 /* FOOTER////////////////////////////////////////////////////////////// */
 
@@ -63,7 +58,7 @@ body, html {
 }
 
 .page-footer ul li{
-    padding: 1% 8% 1% 8%;
+    padding: 0 1.8% 0 1.8%
 }
 
 .page-footer ul li a {
@@ -73,8 +68,17 @@ body, html {
     font-weight: 600;  
 }
 
-.page-footer ul li a:hover {
+/* .page-footer ul li a:hover {
     color: rgb(166,166,166)!important;
     font-weight: bold;
     text-decoration: none;
+} */
+
+.hr1{
+    border: 1px solid black;
+    width: 1000%;
+}
+
+.hr1:hover{
+    color: red!important;
 }
